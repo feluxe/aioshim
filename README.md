@@ -48,7 +48,7 @@ This project uses [yapf](https://github.com/google/yapf) formatter.
 
 ## builtins
 
-### `aenumerate`
+#### `aenumerate`
 
 Async version of: [enumerate](https://docs.python.org/3.6/library/functions.html#enumerate)
 
@@ -64,7 +64,7 @@ async for i in aenumerate(chain(a_gen, range(10))):
 ## itertools
 
 
-### `itertools.chain(*iterables)`
+#### `itertools.chain(*iterables)`
 
 Async version of: [itertools.chain](https://docs.python.org/3.6/library/itertools.html#itertools.chain)
 
@@ -83,7 +83,7 @@ async for i in chain(my_async_gen, range(10)):
 ```
 
 
-### `itertools.chain_from_iterable(iterable)`
+#### `itertools.chain_from_iterable(iterable)`
 
 Async version of: [itertools.chain.from_iterable](https://docs.python.org/3.6/library/itertools.html#itertools.chain.from_iterable)
 
