@@ -8,6 +8,7 @@ The main purpose of this lib is to provide *asyncio* compatible versions of the 
 
 I'm sure the stdlib will catch up with this sooner or later. This lib is for those who need a shim as soon as possible. 
 
+This could be a central repo for all such asyncio related shims.
 
 
 ## Requirements
@@ -56,7 +57,7 @@ async for i in aenumerate(chain(a_gen, range(10))):
 
 ### `itertools.chain(*iterables)`
 
-Async version of: [chain](https://docs.python.org/3.6/library/itertools.html#itertools.chain)
+Async version of: [itertools.chain](https://docs.python.org/3.6/library/itertools.html#itertools.chain)
 
 This function can handle `AsyncGeneratorType`.
 
@@ -75,7 +76,7 @@ async for i in chain(my_async_gen, range(10)):
 
 ### `itertools.chain_from_iterable(iterable)`
 
-Async version of: [from_iterable](https://docs.python.org/3.6/library/itertools.html#itertools.chain.from_iterable)
+Async version of: [itertools.chain.from_iterable](https://docs.python.org/3.6/library/itertools.html#itertools.chain.from_iterable)
 
 This function can handle `AsyncGeneratorType`.
 
