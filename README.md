@@ -8,7 +8,7 @@ The main purpose of this lib is to provide *asyncio* compatible versions of the 
 
 I'm sure the stdlib will catch up with this sooner or later. This lib is for those who need a shim as soon as possible. 
 
-This could be a central repo for all such asyncio related shims.
+This could be a central repo for all such *asyncio* related shims.
 
 
 ## Requirements
@@ -36,6 +36,11 @@ This project uses [yapf](https://github.com/google/yapf) formatter.
 
 # Library Documentation
 
+* [builtins](#builtins)
+  * [aenumerate](#aenumerate)
+* [itertools](#itertools)
+  * [chain](#chain)
+  * [chain_from_iterable](#chain_from_iterable)
 
 ## builtins
 
