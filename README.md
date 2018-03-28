@@ -34,7 +34,8 @@ Just clone the repo and run:
 This project uses [yapf](https://github.com/google/yapf) formatter.
 
 
-<br>
+<br/>
+
 # Library Documentation
 
 * [builtins](#builtins)
