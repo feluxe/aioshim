@@ -10,6 +10,8 @@ I'm sure the stdlib will catch up with this sooner or later. This lib is for tho
 
 This could be a central repo for all such *asyncio* related shims.
 
+If there is interest, this repo could be transfered to a github *shim* org or something.
+
 
 ## Requirements
 
