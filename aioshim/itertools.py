@@ -8,11 +8,9 @@ async def chain(*iterables):
     for iterable in iterables:
         if isinstance(iterable, types.AsyncGeneratorType):
             async for i in iterable:
-                print(i)
                 yield i
         else:
             for i in iterable:
-                print(i)
                 yield i
 
 
