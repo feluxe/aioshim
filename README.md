@@ -39,8 +39,8 @@ This project uses [yapf](https://github.com/google/yapf) formatter.
 * [builtins](#builtins)
   * [aenumerate](#aenumerate)
 * [itertools](#itertools)
-  * [chain](#chain)
-  * [chain_from_iterable](#chain_from_iterable)
+  * [chain](#itertoolschainiterables)
+  * [chain_from_iterable](#itertoolschain_from_iterableiterable)
 
 ## builtins
 
