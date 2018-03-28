@@ -4,7 +4,7 @@
 
 ## Description
 
-The main purpose of this lib is to provide *asyncio* compatible versions of the functions in the standard library. E.g. `itertools.chain()` doesn't work with `async_generators`, etc.
+The main purpose of this lib is to provide *asyncio* compatible versions of the functions in the standard library. E.g. `itertools.chain()` doesn't work with `async_generators`, so there is `aioshim.itertools.chain()` to fill the gap. Etc.
 
 I'm sure the stdlib will catch up with this sooner or later. This lib is for those who need a shim as soon as possible. 
 
@@ -94,7 +94,7 @@ async for i in chain_from_iterable(my_async_generator):
 
 # Works with normal items as well:
 async for i in chain_from_iterable([range(10)]):
-    print(i)
+    print(i)tertoolschain_from_iterableiterable
 ```
 
 
