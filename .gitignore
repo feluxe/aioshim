@@ -1,0 +1,20 @@
+# Misc.
+.cache/
+**/tmp/*
+
+# Python
+__pycache__/
+.env
+*.pyc
+/build/
+dist/
+aioshim.egg-info/
+
+# Editors
+*.iml
+.idea
+.vscode
+.history
+.swp
+
+
