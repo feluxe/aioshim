@@ -98,7 +98,7 @@ async for i in chain_from_iterable(my_async_generator):
 
 # Works with normal items as well:
 async for i in chain_from_iterable([range(10)]):
-    print(i)tertoolschain_from_iterableiterable
+    print(i)
 ```
 
 
