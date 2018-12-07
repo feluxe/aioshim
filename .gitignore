@@ -1,6 +1,7 @@
 # Misc.
 .cache/
 **/tmp/*
+.gitsub
 
 # Python
 __pycache__/
