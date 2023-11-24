@@ -6,7 +6,7 @@ authors = ["feluxe <felix@meyerwolters.de>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.7"
 
 
 [build-system]
